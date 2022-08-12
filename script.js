@@ -29,9 +29,6 @@ function closePopup(popup){
 
 
 
-
-
-
 let myLibrary = [];
 
 function Book(){
