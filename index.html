@@ -16,19 +16,20 @@
     <div class="popup" id="popup">
         <form action="" class="form-container">
             <h3 class="popup-header">Add new book</h3>
-            <input type="text" class="input" placeholder="Title"required>
-            <input type="text" class="input" placeholder="Author" required>
-            <input type="number" name="" id="" placeholder="Pages" class="input" max="400">
+            <input type="text" class="input" name ="title"placeholder="Title"required>
+            <input type="text" class="input" name="author" placeholder="Author" required>
+            <input type="number" name="page" id="" placeholder="Pages" class="input" max="10000">
             <div class="checkbox">
                 <label for="check">Have you read it?</label>
-                <input type="checkbox" required name="check" id="check" >
+                <input type="checkbox" name="check" id="check" >
             </div>
             <input type="submit" value="Submit" id="submit">
         </form>
     </div>
     <div id="overlay"></div>
+
     <div class="main">
-        <div class="item"></div>
+        
     </div>
     
 </body>
